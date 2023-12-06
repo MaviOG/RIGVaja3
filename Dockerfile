@@ -6,10 +6,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 
-COPY ["RIGProjeckFile/RIGProjeck/RIGProjeck.csproj", "RIGProjeckFile/"]
+COPY ["RIGProjeck/RIGProjeck/RIGProjeck.csproj", "RIGProjeck/"]
 COPY . .
 
-WORKDIR "/src/RIGProjeckFile"
+WORKDIR "/src/RIGProjeck"
 RUN dotnet build "RIGProjeck.csproj" -c Release -o /app/build
 
 FROM build AS publish
