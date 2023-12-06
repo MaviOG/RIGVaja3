@@ -36,4 +36,4 @@ jobs:
 
           push: true
 
-          tags: ${{ secrets.DOCKER_USERNAME }}/vaja3:latest
+          tags: maviog/vaja3:latest
