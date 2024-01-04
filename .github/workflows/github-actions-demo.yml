@@ -39,4 +39,4 @@ jobs:
 
           push: true
 
-          tags: maviog/vaja3:latest
+
