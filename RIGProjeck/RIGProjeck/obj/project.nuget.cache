@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5JpysMoIyAVW76feDwoGSKaVG3dbQGrCECCJ7UCcIljdDN38hb0HsIU6hTz6J4FSHe36tvEMMkGeYfglKLEsMw==",
+  "dgSpecHash": "GO1n0NEutMznPXfasNb8rBMPQohmTHD3FlUQC/yboPVCtCLykoH5Z0DrNkrAT3pAM0HJ3IVZrmZr+CE8MXL1tQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\MarkPC\\Source\\Repos\\RIGv1\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,10 @@
     "C:\\Users\\MarkPC\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\MarkPC\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\MarkPC\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
-    "C:\\Users\\MarkPC\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\MarkPC\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.7\\sqlitepclraw.bundle_e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\MarkPC\\.nuget\\packages\\sqlitepclraw.core\\2.1.7\\sqlitepclraw.core.2.1.7.nupkg.sha512",
+    "C:\\Users\\MarkPC\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.7\\sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+    "C:\\Users\\MarkPC\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.7\\sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
     "C:\\Users\\MarkPC\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\MarkPC\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\MarkPC\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
