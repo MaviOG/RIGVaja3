@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RIGProjeck",
+    "\\RIGProjeck\\RIGProjeck",
+    "\\RIGProjeck\\RIGProjeck\\bin",
+    "\\RIGProjeck\\RIGProjeck\\bin\\Debug",
+    "\\RIGProjeck\\RIGProjeck\\Class",
+    "\\RIGProjeck\\RIGProjeck\\Properties",
+    "\\RIGProjeck\\RIGProjeck\\wwwroot",
+    "\\RIGProjeck\\RIGProjeck\\wwwroot\\css"
   ],
+  "SelectedNode": "\\RIGProjeck\\RIGProjeck\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }
