@@ -12,7 +12,9 @@ namespace RIGProjeck.Class
 		public string DbPath { get;}
 		public  NepremicninaDB()
 		{
+
 			SQLitePCL.Batteries.Init();
+
 			string startupPath =System.IO.Directory.GetCurrentDirectory();
 
 			DbPath = System.IO.Path.Join(startupPath, "NepremicninaDB.db");

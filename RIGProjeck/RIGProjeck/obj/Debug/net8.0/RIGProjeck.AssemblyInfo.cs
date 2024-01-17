@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RIGProjeck")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d39eea5079f88656462248ee590a4f41425cb4d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("RIGProjeck")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RIGProjeck")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
