@@ -13,11 +13,11 @@
         public int stevilo_balkonov { get; set; }
         public int stevilo_spalnic { get; set; }
         public int uporabnikov_id {  get; set; }
-        public List<int> Ocena { get; set; }
-        public List<string> Komentarji { get; set; }
-        public List<Nepremičnina> BoostedAds {get;set;}
-		public List<Nepremičnina> UporabnikoveObjave { get; set; }
-        public List<Nepremičnina> VseObjave { get; set; }
+        public List<int> Ocena = new List<int>();
+        public List<string> Komentarji = new List<string>();
+        public List<Nepremičnina> BoostedAds = new List<Nepremičnina>();
+		public List<Nepremičnina> UporabnikoveObjave = new List<Nepremičnina>();
+        public List<Nepremičnina> VseObjave = new List<Nepremičnina>();
 
 		public Nepremičnina(string lokacija, int cena, DateOnly dan_izgradnje, int stevilo_kopalnic,int velikost,int stevilo_prostorov,int stevilo_balkonov,int stevilo_spalnic, int uporabnikov_id)
         {

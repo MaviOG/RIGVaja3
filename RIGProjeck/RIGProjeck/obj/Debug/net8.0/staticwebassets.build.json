@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D4709b+ui78Dl1STa97aHn1RXyHlkz0AblmDRSp7X7k=",
+  "Hash": "I1S23c44iJJHnDp1kzthzE4dPuKc4a6+dxRAYaMm2XY=",
   "Source": "RIGProjeck",
   "BasePath": "_content/RIGProjeck",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Uporabnik\\.nuget\\packages\\quick.aspnetcore.components.web.extensions\\6.0.2\\staticwebassets\\headManager.js",
+      "SourceId": "Quick.AspNetCore.Components.Web.Extensions",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Uporabnik\\.nuget\\packages\\quick.aspnetcore.components.web.extensions\\6.0.2\\staticwebassets\\",
+      "BasePath": "_content/Quick.AspNetCore.Components.Web.Extensions",
+      "RelativePath": "headManager.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Uporabnik\\.nuget\\packages\\quick.aspnetcore.components.web.extensions\\6.0.2\\staticwebassets\\headManager.js"
+    },
     {
       "Identity": "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\obj\\Debug\\net8.0\\scopedcss\\bundle\\RIGProjeck.styles.css",
       "SourceId": "RIGProjeck",

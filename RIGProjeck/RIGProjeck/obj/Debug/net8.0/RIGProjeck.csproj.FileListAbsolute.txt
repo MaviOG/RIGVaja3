@@ -256,3 +256,14 @@ C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\obj\Debug\net8.0\
 C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\obj\Debug\net8.0\RIGProjeck.pdb
 C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\obj\Debug\net8.0\RIGProjeck.genruntimeconfig.cache
 C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\obj\Debug\net8.0\ref\RIGProjeck.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.JSInterop.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\Uporabnik\source\repos\RIGVaja3\RIGProjeck\RIGProjeck\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.Extensions.dll
