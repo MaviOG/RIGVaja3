@@ -1,10 +1,66 @@
-﻿@page
+﻿@page ""
+@using RIGProjeck.Class
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Login";
 }
+@inject User UserService
+
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2>Login</h2>
+
+
+
+    <form method="post" asp-page-handler="Login">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" asp-for="Username" required>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" asp-for="Password" required>
+        </div>
+
+        <button type="submit" onclick="Login()">Login</button>
+        <button type="submit" onclick="Redirect()">redirect</button>
+    </form>
+    <script>
+        function Redirect() {
+            // Use this function if you want to trigger the redirection via JavaScript
+            window.location.href = 'https://localhost:7015/main';
+        }
+    </script>
+
+    @functions {
+        bool IsPostBack => Request.Method == "POST";
+
+
+        public void Login()
+        {
+            RedirectToPage("/main");
+            if (ModelState.IsValid)
+            {
+                bool loginResult = UserService.LogIn(Model.Username, Model.Password);
+
+                if (loginResult)
+                {
+                    TempData["Message"] = "Login successful. Redirecting to main page.";
+                    // Redirect to a confirmation page after successful registration
+                     RedirectToPage("/main");
+                }
+                else
+                {
+                    TempData["Message"] = "Login failed";
+                    ModelState.AddModelError(string.Empty, "Login failed. Please check your credentials.");
+                    // Registration failed, handle accordingly (e.g., show an error message)
+                    ModelState.AddModelError(string.Empty, "login failed.");
+                     Page();
+                }
+            }
+
+            // If ModelState is not valid, redisplay the form
+             Page();
+        }
+    }
 </div>

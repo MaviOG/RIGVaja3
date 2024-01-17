@@ -3,7 +3,12 @@ using RIGProjeck.Class;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<User>();
 builder.Services.AddRazorPages();
+
+
+
+
 
 var app = builder.Build();
 

@@ -5,6 +5,7 @@ namespace RIGProjeck.Class
 {
 	public class NepremicninaDB:DbContext
 	{
+		public DbSet<User> Users { get; set; }
 		public DbSet<Nepremičnina> Nepremicninas { get; set; }
 		public string DbPath { get;}
 		public  NepremicninaDB()

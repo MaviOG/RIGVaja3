@@ -2,8 +2,8 @@
 {
     public class Nepremičnina
     {
-
-        public int NepremičninaID { get; set; }
+		NepremicninaDB nepremicnineDb = new NepremicninaDB();
+		public int NepremičninaID { get; set; }
         public string lokacija { get; set; }
         public int cena { get; set; }
         public DateOnly dan_izgradnje { get; set; }
@@ -46,7 +46,7 @@
 
 		public void LoadUserAds(int uporabnikovId)
 		{
-            foreach (var item in VseObjave)
+            foreach (var item in nepremicnineDb.Nepremicninas)
             {
                 if (item.uporabnikov_id == uporabnikovId )
                 {

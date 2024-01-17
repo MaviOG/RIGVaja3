@@ -1,38 +1,47 @@
-﻿namespace RIGProjeck.Class
+﻿
+using System.ComponentModel.DataAnnotations;
+namespace RIGProjeck.Class
 {
 	public class User
 	{
-		private int userid { get; set; }
-		private string username { get; set; }
-		private string password { get; set; }
-		private string email { get; set; }
-		private bool verified { get; set; }
-
-		private List<User> users { get; set; }
+		NepremicninaDB usersDb = new NepremicninaDB();
+		
+		[Key] public int Id { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
+        public string email { get; set; }
+        public bool verified { get; set; }
+		
 
 		public List<Nepremičnina> uporabnikoveObjave { get; set; }
 
-		public User(int userid,string username, string password, string email, bool verified)
+		public User(int Id, string username, string password, string email, bool verified)
 		{
-			this.userid = userid;
+			this.Id = Id;
 			this.username = username;
 			this.password = password;
 			this.email = email;
-			this.verified = verified;
+			this.verified = false;
 		}
-		public bool Register(string Username, string Password, string Email)
+
+        public User()
+        {
+        }
+
+        public bool Register(string Username, string Password, string Email)
 		{
-			int id = users.Count+1;
+			int usersCount = usersDb.Users.Count();
+			int id = usersCount+1;
 			password = Password;
 			username = Username;
 			email = Email;
-			foreach (var user in users)
+			foreach (var user in usersDb.Users)
 			{
 				if (username == user.username || email == user.email)
 				{
 					return false;
 				}
-				users.Add(new User(id,username, password, email, false));
+				usersDb.Users.Add(new User(id,username, password, email, false));
 
 			}
 			return true;
@@ -40,7 +49,7 @@
 
 		public bool LogIn(string password, string username)
 		{
-			foreach (var user in users)
+			foreach (var user in usersDb.Users)
 			{
 				if (user.username == username && user.password == password) 
 				{
@@ -57,9 +66,10 @@
 
 		public void VerifyUser(User selectedUser)
 		{
-			if (users.Count != 0 && users != null)
+			if (usersDb.Users != null)
 			{
-				users.Find(p => p.userid == selectedUser.userid).verified = true;
+				usersDb.Users.FirstOrDefault(p => p.Id == selectedUser.Id).verified = true;
+				
 			}
 
 		}

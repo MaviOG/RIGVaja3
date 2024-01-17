@@ -31,6 +31,9 @@ namespace RIGProjeck.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("cena")
                         .HasColumnType("INTEGER");
 
@@ -53,12 +56,55 @@ namespace RIGProjeck.Migrations
                     b.Property<int>("stevilo_spalnic")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("uporabnikov_id")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("velikost")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("NepremičninaID");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("Nepremicninas");
+                });
+
+            modelBuilder.Entity("RIGProjeck.Class.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("username")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("verified")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("RIGProjeck.Class.Nepremičnina", b =>
+                {
+                    b.HasOne("RIGProjeck.Class.User", null)
+                        .WithMany("uporabnikoveObjave")
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("RIGProjeck.Class.User", b =>
+                {
+                    b.Navigation("uporabnikoveObjave");
                 });
 #pragma warning restore 612, 618
         }
