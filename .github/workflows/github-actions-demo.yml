@@ -29,4 +29,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            your-docker-username/your-repository-name:latest
+            maviog/vaja3:v1.0
