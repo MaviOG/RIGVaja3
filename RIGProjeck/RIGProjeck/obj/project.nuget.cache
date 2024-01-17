@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fVSyuWSXPI3bd6BK/lqu6XY5duggjQxoYV1tyrreQEqBVWD6SKNQfR9iZbxB0JrNp61lf/et3LAlxZpV4DcpsA==",
+  "dgSpecHash": "aBnUMM/LRcVokB1Sc7kGOUnB0lyGeD8cDr7EjE+7sxkrSEFlZ/S2daVBw7jUPt+tOpERLKjpFQfSVxTtxIRz2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Uporabnik\\Source\\Repos\\RIGVaja6\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
+  "projectFilePath": "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Uporabnik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Uporabnik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

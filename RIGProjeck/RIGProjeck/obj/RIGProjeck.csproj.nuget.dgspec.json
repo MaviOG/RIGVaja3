@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Uporabnik\\Source\\Repos\\RIGVaja6\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj": {}
+    "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Uporabnik\\Source\\Repos\\RIGVaja6\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj": {
+    "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Uporabnik\\Source\\Repos\\RIGVaja6\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
+        "projectUniqueName": "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
         "projectName": "RIGProjeck",
-        "projectPath": "C:\\Users\\Uporabnik\\Source\\Repos\\RIGVaja6\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
+        "projectPath": "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
         "packagesPath": "C:\\Users\\Uporabnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Uporabnik\\Source\\Repos\\RIGVaja6\\RIGProjeck\\RIGProjeck\\obj\\",
+        "outputPath": "C:\\Users\\Uporabnik\\source\\repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
