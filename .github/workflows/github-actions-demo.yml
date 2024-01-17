@@ -23,3 +23,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
+          tags: |
+            your-docker-username/your-repository-name:latest
