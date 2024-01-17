@@ -14,7 +14,9 @@ WORKDIR "/src/RIGProjeck/RIGProjeck"
 RUN dotnet build "RIGProjeck.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "RIGProjeck.csproj" -c Release -o /app/publish /p:UseAppHost=false
+# Build with more verbosity
+RUN dotnet build "RIGProjeck.csproj" -c Release -o /app/build -v n
+
 
 FROM base AS final
 WORKDIR /app
