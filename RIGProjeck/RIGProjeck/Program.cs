@@ -7,9 +7,9 @@ DateTime currentDateTime = DateTime.Now;
 DateOnly currentDateOnly = DateOnly.FromDateTime(currentDateTime);
 
 // Create an instance of Nepremiènina
-var o = new Nepremiènina("Lenart", 300000, currentDateOnly, 2, 150, 8, 1, 3, 3);
-db.Add(o);
-db.SaveChanges();
+//var o = new Nepremiènina("Lenart", 300000, currentDateOnly, 2, 150, 8, 1, 3, 3);
+//db.Add(o);
+//db.SaveChanges();
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
