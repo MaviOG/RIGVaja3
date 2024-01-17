@@ -13,6 +13,7 @@ namespace UI
 {
     public partial class Register : Form
     {
+        
         User user = new User();
         public Register()
         {
@@ -21,6 +22,8 @@ namespace UI
         private void button2_Click_1(object sender, EventArgs e)
         {
             user.Register(textBox2.Text, textBox3.Text, textBox1.Text);
+            this.Hide();
+
         }
     }
 }

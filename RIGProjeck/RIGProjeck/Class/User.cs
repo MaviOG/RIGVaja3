@@ -41,9 +41,11 @@ namespace RIGProjeck.Class
 				{
 					return false;
 				}
-				usersDb.Users.Add(new User(id,username, password, email, false));
+				
 
 			}
+			usersDb.Users.Add(new User(id,username, password, email, false));
+			usersDb.SaveChanges();
 			return true;
 		}
 
@@ -64,14 +66,21 @@ namespace RIGProjeck.Class
 			throw new System.NotImplementedException("Not implemented");
 		}
 
-		public void VerifyUser(User selectedUser)
+		public void VerifyUser(string user)
 		{
-			if (usersDb.Users != null)
-			{
-				usersDb.Users.FirstOrDefault(p => p.Id == selectedUser.Id).verified = true;
-				
-			}
+            int openBraceIndex = user.IndexOf('{');
+            int closeBraceIndex = user.IndexOf('}', openBraceIndex);
+            string extractedText = user.Substring(openBraceIndex + 1, closeBraceIndex - openBraceIndex - 1);
 
-		}
+            //var userToUpdate = usersDb.Users.FirstOrDefault(p => p.username == user);
+            foreach (var usertoupdate in usersDb.Users)
+			{
+				if (usertoupdate.username == extractedText)
+				{
+					usertoupdate.verified = true;
+					usersDb.SaveChanges();
+				}				
+			}        
+        }
 	}
 }

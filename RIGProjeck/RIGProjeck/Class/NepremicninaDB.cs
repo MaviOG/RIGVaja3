@@ -5,7 +5,9 @@ namespace RIGProjeck.Class
 {
 	public class NepremicninaDB:DbContext
 	{
-		public DbSet<User> Users { get; set; }
+		string path = "C:\\Users\\aljaz\\Desktop\\RGIS\\RIGVaja3\\RIGProjeck\\RIGProjeck\\NepremicninaDB.db";
+
+        public DbSet<User> Users { get; set; }
 		public DbSet<Nepremičnina> Nepremicninas { get; set; }
 		public string DbPath { get;}
 		public  NepremicninaDB()
@@ -16,6 +18,6 @@ namespace RIGProjeck.Class
 			DbPath = System.IO.Path.Join(startupPath, "NepremicninaDB.db");
 		}
 		protected override void OnConfiguring(DbContextOptionsBuilder options)
-		=> options.UseSqlite($"Data Source={DbPath}");	
+		=> options.UseSqlite($"Data Source={path}");	
 	}
 }

@@ -18,8 +18,9 @@
         public List<Nepremičnina> BoostedAds {get;set;}
 		public List<Nepremičnina> UporabnikoveObjave { get; set; }
         public List<Nepremičnina> VseObjave { get; set; }
-
-		public Nepremičnina(string lokacija, int cena, DateOnly dan_izgradnje, int stevilo_kopalnic,int velikost,int stevilo_prostorov,int stevilo_balkonov,int stevilo_spalnic, int uporabnikov_id)
+        public Nepremičnina()
+        { }
+        public Nepremičnina(string lokacija, int cena, DateOnly dan_izgradnje, int stevilo_kopalnic,int velikost,int stevilo_prostorov,int stevilo_balkonov,int stevilo_spalnic, int uporabnikov_id)
         {
             this.lokacija = lokacija;
             this.cena = cena;

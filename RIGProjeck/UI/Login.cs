@@ -34,6 +34,7 @@ namespace UI
             if (user.LogIn(textBox2.Text,textBox2.Text))
             {
                 main.ShowDialog();
+                Close();
             }
         }
 
