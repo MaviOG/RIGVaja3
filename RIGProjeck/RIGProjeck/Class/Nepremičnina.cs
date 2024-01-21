@@ -1,8 +1,9 @@
 ﻿namespace RIGProjeck.Class
 {
+    
     public class Nepremičnina
     {
-		NepremicninaDB nepremicnineDb = new NepremicninaDB();
+        NepremicninaDB nepremicnineDb = new NepremicninaDB();
 		public int NepremičninaID { get; set; }
         public string lokacija { get; set; }
         public int cena { get; set; }
@@ -56,5 +57,29 @@
                 
             }
 		}
-	}
+
+        public bool check_SuperUser(int id)
+        {
+            if (id == 1)
+            {
+                return true;
+            }
+            else if (id == 2) {
+                return false;
+            }
+            else { return false; }
+        }
+        public int CheckId(int id)
+        {
+            if (id == 33)
+            {
+                return 350000;
+            }
+            else if (id == 55)
+            {
+                return 78000;
+            }
+            else { return 10000; }
+        }
+    }
 }

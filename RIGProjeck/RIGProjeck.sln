@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RIGProjeck", "RIGProjeck\RIGProjeck.csproj", "{DF6EFF53-0EA8-4807-AC69-BAEA5B3EFCF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{1B3951D0-6DE0-4F96-AA83-AEDD5C37C0C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{1B3951D0-6DE0-4F96-AA83-AEDD5C37C0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTest", "ProjectTest\ProjectTest.csproj", "{F6992011-ACE8-4ADE-B7AA-9093991FBCCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1B3951D0-6DE0-4F96-AA83-AEDD5C37C0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B3951D0-6DE0-4F96-AA83-AEDD5C37C0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B3951D0-6DE0-4F96-AA83-AEDD5C37C0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6992011-ACE8-4ADE-B7AA-9093991FBCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6992011-ACE8-4ADE-B7AA-9093991FBCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6992011-ACE8-4ADE-B7AA-9093991FBCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6992011-ACE8-4ADE-B7AA-9093991FBCCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

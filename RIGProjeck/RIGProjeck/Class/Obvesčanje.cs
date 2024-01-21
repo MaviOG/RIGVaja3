@@ -12,6 +12,14 @@
 
             }
         }
+        public bool IsUserOnList(int index)
+        {
+            if(index == 1)
+            {
+                return true;
+            }
+            else return false;
+        }
         
 
     }
