@@ -3243,23 +3243,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MarkPC\\.nuget\\packages\\": {},
+    "C:\\Users\\aljaz\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MarkPC\\Source\\Repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
+      "projectUniqueName": "C:\\Users\\aljaz\\Desktop\\RGIS ZAGOVOR\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
       "projectName": "RIGProjeck",
-      "projectPath": "C:\\Users\\MarkPC\\Source\\Repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
-      "packagesPath": "C:\\Users\\MarkPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MarkPC\\Source\\Repos\\RIGVaja3\\RIGProjeck\\RIGProjeck\\obj\\",
+      "projectPath": "C:\\Users\\aljaz\\Desktop\\RGIS ZAGOVOR\\RIGVaja3\\RIGProjeck\\RIGProjeck\\RIGProjeck.csproj",
+      "packagesPath": "C:\\Users\\aljaz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aljaz\\Desktop\\RGIS ZAGOVOR\\RIGVaja3\\RIGProjeck\\RIGProjeck\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\MarkPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aljaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

@@ -6,8 +6,8 @@ DateTime currentDateTime = DateTime.Now;
 // Create a DateOnly instance from the current date and time
 DateOnly currentDateOnly = DateOnly.FromDateTime(currentDateTime);
 
-// Create an instance of Nepremiènina
-//var o = new Nepremiènina("Lenart", 300000, currentDateOnly, 2, 150, 8, 1, 3, 3);
+// Create an instance of Nepremi?nina
+//var o = new Nepremi?nina("Lenart", 300000, currentDateOnly, 2, 150, 8, 1, 3, 3);
 //db.Add(o);
 //db.SaveChanges();
 var builder = WebApplication.CreateBuilder(args);

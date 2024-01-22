@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RIGProjeck",
+    "\\RIGProjeck\\ProjectTest",
+    "\\RIGProjeck\\RIGProjeck\\Class"
   ],
-  "SelectedNode": "\\RIGProjeck.sln",
+  "SelectedNode": "\\RIGProjeck\\ProjectTest\\Nepremi\u010DninaTest.cs",
   "PreviewInSolutionExplorer": false
 }

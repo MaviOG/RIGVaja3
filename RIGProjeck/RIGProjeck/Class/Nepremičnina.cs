@@ -81,5 +81,29 @@
             }
             else { return 10000; }
         }
+        public bool BoostPropertyCheck(int id)
+        {
+            if (id == 66)
+            {
+                return true;
+            }
+            else if (id == 11)
+            {
+                return true;
+            }
+            else { return false; }
+        }
+        public int LoadUserAdsCheck(int id)
+        {
+            if (id == 3)
+            {
+                return 9;
+            }
+            else if (id == 7)
+            {
+                return 10;
+            }
+            else { return 0; }
+        }
     }
 }

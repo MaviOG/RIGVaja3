@@ -1,23 +1,23 @@
-using NUnit.Framework;
+ï»¿using NUnit.Framework;
 using RIGProjeck.Class;
 namespace ProjectTest
 {
-    public class NepremièninaTest
+    public class NepremiÄninaTest
     {
-        private Nepremiènina _checkSuperUserTrue { get; set; } = null;
-        private Nepremiènina _checkSuperUserFalse { get; set; } = null;
-        private Nepremiènina _checkNepremèninaid { get; set; } = null;
-        private Obvesèanje _UserOnListTrue { get; set; } = null;
-        private Obvesèanje _UserOnListFalse { get; set; } = null;
+        private NepremiÄnina _checkSuperUserTrue { get; set; } = null;
+        private NepremiÄnina _checkSuperUserFalse { get; set; } = null;
+        private NepremiÄnina _checkNepremÃ¨ninaid { get; set; } = null;
+        private ObvesÄanje _UserOnListTrue { get; set; } = null;
+        private ObvesÄanje _UserOnListFalse { get; set; } = null;
         [SetUp]
         public void Setup()
         {
-            _checkSuperUserTrue = new Nepremiènina();
-            _checkSuperUserFalse = new Nepremiènina();
-            _checkNepremèninaid = new Nepremiènina();
+            _checkSuperUserTrue = new NepremiÄnina();
+            _checkSuperUserFalse = new NepremiÄnina();
+            _checkNepremÃ¨ninaid = new NepremiÄnina();
             
-            _UserOnListTrue = new Obvesèanje();
-            _UserOnListFalse = new Obvesèanje();
+            _UserOnListTrue = new ObvesÄanje();
+            _UserOnListFalse = new ObvesÄanje();
         }
 
         [Test]
@@ -61,13 +61,13 @@ namespace ProjectTest
             Assert.IsFalse(value);
         }
         [Test]
-        public void _NepremièninaID()
+        public void _NepremiÄninaID()
         {
             //Assign
            
             //Act
-            int value = _checkNepremèninaid.CheckId(33);
-            int value2 = _checkNepremèninaid.CheckId(55);
+            int value = _checkNepremÃ¨ninaid.CheckId(33);
+            int value2 = _checkNepremÃ¨ninaid.CheckId(55);
             //Assert
             Assert.AreEqual(value,350000);
             Assert.AreEqual(value2, 78000);
